@@ -1,5 +1,13 @@
+/* all */
 * {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #06070E;
+    background-color: #C3CBD8;
+    text-align: center;
+    margin: 15vw 5vw 5vw;
 }
 
 h1,
@@ -9,4 +17,79 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #06070E;
+    cursor: pointer;
+}
+
+/* header */
+
+/* nav header */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+
+nav,
+nav a {
+    color: #E3F1F2;
+    background-color: #b43;
+    text-align: center;
+    font-weight: 900;
+}
+
+nav a {
+    display: inline-block;
+    width: 32%;
+    margin: 0;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+nav a:active {
+    text-shadow:
+		-1px -1px 0 #06070E,
+		1px -1px 0 #06070E,
+		-1px 1px 0 #06070E,
+		1px 1px 0 #06070E;
+}
+
+/* regular header */
+h1 {
+    font-size: 12vw;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+#socialMediaLinks, #socialMediaLinks li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+}
+
+/* main body */
+
+.aboutMeP {
+    text-align: left;
+    text-indent: 2em;
+    line-height: 2em;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.aboutMeP + p {
+    margin-top: 0;
+    padding-top: 0;
 }
