@@ -4,11 +4,14 @@
 }
 
 body {
-    color: #06070E;
-    background-color: #C3CBD8;
+    background-color: #f9f9f9;
     text-align: center;
     margin: 15vw 0;
     padding: 0 10vw;
+}
+
+body, a {
+    color: #321529;
 }
 
 h1,
@@ -25,8 +28,12 @@ h6 {
 a {
     text-decoration: none;
     font-size: 2.5em;
-    color: #06070E;
     cursor: pointer;
+}
+
+button {
+    background-color: #76323f;
+    color: #e3dfe0;
 }
 
 /* header */
@@ -40,13 +47,13 @@ nav {
     padding: 10px 0;
     width: 100%;
     overflow: hidden;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
 }
 
 nav,
 nav a {
-    color: #E3F1F2;
-    background-color: #b43;
+    color: #e3dfe0;
+    background-color: #76323f;
     text-align: center;
     font-weight: 900;
 }
@@ -61,23 +68,41 @@ nav a {
 
 nav a:active {
     text-shadow:
-		-1px -1px 0 #06070E,
-		1px -1px 0 #06070E,
-		-1px 1px 0 #06070E,
-		1px 1px 0 #06070E;
+		-1px -1px 0 #321529,
+		1px -1px 0 #321529,
+		-1px 1px 0 #321529,
+		1px 1px 0 #321529;
 }
 
 /* regular header */
+#headshot {
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 h1 {
     font-size: 12vw;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 #socialMediaLinks, #socialMediaLinks li {
     list-style: none;
     display: inline-block;
     padding-left: 0;
+    justify-content: space-between;
+}
+
+.socialMediaButton {
+    font-size: 1.4em;
+    border: none;
+    border-radius: 5px;
+    height: auto;
+    width: 250px;
+    padding: 0 10px;
+    margin: 20px 5px;
 }
 
 /* main body */
